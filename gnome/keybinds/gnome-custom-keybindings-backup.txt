@@ -1,0 +1,20 @@
+[/]
+control-center=['<Super>i']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
+help=@as []
+home=['<Super>e']
+logout=@as []
+magnifier=@as []
+magnifier-zoom-in=@as []
+magnifier-zoom-out=@as []
+screenreader=@as []
+
+[custom-keybindings/custom1]
+binding='<Shift><Control>Escape'
+command='gnome-system-monitor'
+name='system-monitor'
+
+[custom-keybindings/custom2]
+binding='<Super>t'
+command='alacritty'
+name='alacritty'
